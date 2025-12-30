@@ -1,0 +1,58 @@
+#!/bin/bash
+
+echo "🚀 Constrix Production Deployment Guide"
+echo "========================================"
+
+echo ""
+echo "📋 Pre-deployment Checklist:"
+echo "✅ MongoDB Atlas cluster created"
+echo "✅ Railway account setup"
+echo "✅ Vercel account setup"
+echo "✅ Verychain wallet with VERY tokens"
+echo "✅ Environment variables configured"
+
+echo ""
+echo "🔧 Step 1: Deploy Smart Contracts"
+echo "cd contracts"
+echo "npm run deploy:verychain"
+echo "# Copy contract addresses to environment files"
+
+echo ""
+echo "🗄️ Step 2: Setup MongoDB Atlas"
+echo "# Follow docs/mongodb-atlas-setup.md"
+echo "# Update DATABASE_URL in backend/.env.production"
+
+echo ""
+echo "🚂 Step 3: Deploy Backend to Railway"
+echo "# 1. Push code to GitHub"
+echo "# 2. Connect Railway to GitHub repo"
+echo "# 3. Select backend folder as root"
+echo "# 4. Add environment variables from .env.production"
+echo "# 5. Deploy"
+
+echo ""
+echo "🌐 Step 4: Deploy Frontend to Vercel"
+echo "# 1. Connect Vercel to GitHub repo"
+echo "# 2. Select frontend folder as root"
+echo "# 3. Add environment variables from .env.production"
+echo "# 4. Update NEXT_PUBLIC_API_URL with Railway backend URL"
+echo "# 5. Deploy"
+
+echo ""
+echo "🔗 Step 5: Update Contract Backend Authorization"
+echo "# Update BACKEND_ADDRESS in contracts/.env with Railway backend wallet"
+echo "# Re-run contract deployment to authorize backend"
+
+echo ""
+echo "✅ Step 6: Test Production Deployment"
+echo "# 1. Visit your Vercel URL"
+echo "# 2. Connect wallet"
+echo "# 3. Create habits"
+echo "# 4. Complete check-ins"
+echo "# 5. Verify blockchain transactions"
+
+echo ""
+echo "🎉 Deployment Complete!"
+echo "Frontend: https://your-app.vercel.app"
+echo "Backend: https://your-backend.railway.app"
+echo "Contracts: Check Veryscan for addresses"

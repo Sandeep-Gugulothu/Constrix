@@ -1,0 +1,31 @@
+{
+  "name": "@constrix/contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Constrix habit tracking platform",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:verychain": "hardhat run scripts/deploy-production.js --network verychain",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network verychain-testnet",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "test-deploy": "hardhat run scripts/test-deploy.js --network localhost",
+    "test": "hardhat test",
+    "verify": "hardhat verify",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.9.3",
+    "hardhat": "^2.17.1",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "blockchain",
+    "smart-contracts",
+    "habits",
+    "nft",
+    "verychain"
+  ],
+  "author": "Constrix Team",
+  "license": "MIT"
+}
