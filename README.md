@@ -5,15 +5,17 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+🌐 **[WEB DASHBOARD](https://frontend-puce-eta-80.vercel.app/)** • 📱 **[MOBILE APP](https://frontend-puce-eta-80.vercel.app/mobile)** • 🎥 **[DEMO VIDEO](#)** • 📚 **[TECH DOCS](https://sandeep-2.gitbook.io/sandeep-docs)**
+
+</div>
+
+
 <div align="center">
 
 # ⚡ C O N S T R I X ⚡
 ## 『 TRANSFORM HABITS INTO ON-CHAIN ACHIEVEMENTS 』
 
-[![⚡ VERY NETWORK](https://img.shields.io/badge/⚡_NETWORK-VERY-blueviolet?style=for-the-badge&logo=ethereum)](https://very.network)
-[![🎯 HABIT TRACKING](https://img.shields.io/badge/🎯_PROTOCOL-HABIT--TRACKING-ff00ff?style=for-the-badge)](https://constrix.vercel.app/)
-[![💎 STREAK REWARDS](https://img.shields.io/badge/💎_REWARDS-STREAK--BASED-00ff00?style=for-the-badge)](https://constrix.vercel.app/)
-[![🏆 NFT BADGES](https://img.shields.io/badge/🏆_BADGES-SOULBOUND_NFT-00ffff?style=for-the-badge)](https://constrix.vercel.app/)
+
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -27,18 +29,9 @@
 ### ⟨ CONSISTENCY MEETS BLOCKCHAIN ⟩
 *Transform daily habits into verifiable on-chain achievements while earning VERY tokens*
 
-```
-[SYSTEM ACCESS POINTS]
-```
-🌐 **[WEB DASHBOARD](https://frontend-puce-eta-80.vercel.app/)** • 📱 **[MOBILE APP](https://frontend-puce-eta-80.vercel.app/mobile)** • 🎥 **[DEMO VIDEO](#)** • 📚 **[TECH DOCS](https://docs.constrix.app)**
-
 </div>
 
-```
-═══════════════════════════════════════════════════════════════════════════════
-                            [PROTOCOL VISION]
-═══════════════════════════════════════════════════════════════════════════════
-```
+
 
 ## 🎯 THE CONSTRIX PROTOCOL
 
@@ -64,11 +57,6 @@
 └──────────────────────────────────────────────────────────────┘
 ```
 
-```
-═══════════════════════════════════════════════════════════════════════════════
-                            [PROTOCOL MECHANICS]
-═══════════════════════════════════════════════════════════════════════════════
-```
 
 ## 💡 OPERATIONAL FRAMEWORK
 
@@ -116,11 +104,6 @@ Trigger achievement protocols at 7, 14, 30, 60, 100, 365-day milestones with VER
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-```
-═══════════════════════════════════════════════════════════════════════════════
-                        [TECHNICAL INFRASTRUCTURE]
-═══════════════════════════════════════════════════════════════════════════════
-```
 
 ## 🛠️ SYSTEM COMPONENTS
 
@@ -208,62 +191,7 @@ constrix/
 ═══════════════════════════════════════════════════════════════════════════════
 ```
 
-## 🚀 QUICK DEPLOYMENT PROTOCOL
 
-### SYSTEM REQUIREMENTS
-- **Node.js 18+** and npm package manager
-- **MongoDB Atlas** or local instance
-- **MetaMask wallet** with Verychain network
-- **Git** version control system
-
-### INITIALIZATION SEQUENCE
-
-#### 1. Repository Acquisition
-```bash
-git clone https://github.com/your-org/constrix.git
-cd constrix
-```
-
-#### 2. Dependency Installation
-```bash
-# Backend dependencies
-cd backend && npm install
-
-# Frontend dependencies  
-cd ../frontend && npm install
-
-# Contract dependencies
-cd ../contracts && npm install
-
-# Mobile dependencies (optional)
-cd ../constrix-mobile && npm install
-```
-
-
-```
-
-#### 4. System Activation
-
-**Terminal 1: Backend Server**
-```bash
-cd backend
-npm run dev
-# Server active on http://localhost:5000
-```
-
-**Terminal 2: Frontend Interface**
-```bash
-cd frontend
-npm run dev
-# Interface active on http://localhost:3000
-```
-
-**Terminal 3: Mobile Terminal (Optional)**
-```bash
-cd constrix-mobile
-npm start
-# Scan QR with Expo Go app
-```
 
 ### ACCESS POINTS
 - **🌐 Web Dashboard**: http://localhost:3000
@@ -344,48 +272,6 @@ npm start
 - **🎮 Gamification Layer**: Advanced achievement systems and leaderboards
 
 
-```
-═══════════════════════════════════════════════════════════════════════════════
-                        [PRODUCTION DEPLOYMENT]
-═══════════════════════════════════════════════════════════════════════════════
-```
-
-## 🚀 PRODUCTION PROTOCOL
-
-### AUTOMATED DEPLOYMENT SEQUENCE
-
-```bash
-# Execute the deployment protocol
-./deploy-submission.bat
-```
-
-### MANUAL DEPLOYMENT STEPS
-
-#### 1. Smart Contract Deployment
-```bash
-cd contracts
-npm run compile
-npm run deploy:verychain
-```
-
-#### 2. Database Configuration
-```bash
-# Setup MongoDB Atlas (follow docs/mongodb-atlas-setup.md)
-# Configure production connection strings
-```
-
-#### 3. Backend Deployment (Railway)
-```bash
-cd backend
-railway login
-railway up
-```
-
-#### 4. Frontend Deployment (Vercel)
-```bash
-cd frontend
-vercel --prod
-```
 
 ### PRODUCTION ACCESS POINTS
 
@@ -394,13 +280,7 @@ vercel --prod
 │                                                                 │
 │  🌐 FRONTEND INTERFACE                                          │
 │  > Production URL ........... https://frontend-puce-eta-80.vercel.app │
-│  > Status ................... [OPERATIONAL]                    │
-│                                                                 │
-│  🔌 BACKEND API GATEWAY                                         │
-│  > Production URL ........... https://constrix-backend.railway.app │
-│  > Health Check ............. /api/health                      │
-│  > Status ................... [ACTIVE]                         │
-│                                                                 │
+│  > Status ................... [OPERATIONAL]                    │                        │
 │  ⛓️ SMART CONTRACTS                                             │
 │  > Network .................. Verychain Mainnet                │
 │  > Status ................... [DEPLOYED]                       │
@@ -418,11 +298,6 @@ curl https://constrix.vercel.app/api/status
 # Expected response: {"status": "operational", "timestamp": "..."}
 ```
 
-```
-═══════════════════════════════════════════════════════════════════════════════
-                        [VERY NETWORK INTEGRATION]
-═══════════════════════════════════════════════════════════════════════════════
-```
 
 ## ⚡ VERY ECOSYSTEM INTEGRATION
 
@@ -437,21 +312,14 @@ Real-time social intelligence transmitted directly to **VeryChat** communication
 - **Community Support**: Connect with habit accountability partners
 - **Social Proof**: Share verified streak achievements with cryptographic proof
 
-### 💰 VERY TOKEN ECONOMY
+### VERY TOKEN ECONOMY
 
 The **VERY token** powers all economic transactions:
 - **Milestone Rewards**: Earn tokens for 7, 14, 30, 60, 100, 365-day streaks
 - **Staking Multipliers**: Lock tokens for enhanced earning rates
 - **NFT Badge Minting**: Use tokens to mint soulbound achievement NFTs
-- **Governance Participation**: Vote on protocol upgrades and reward structures
 
-```
-═══════════════════════════════════════════════════════════════════════════════
-                        [HACKATHON ACHIEVEMENT STATUS]
-═══════════════════════════════════════════════════════════════════════════════
-```
-
-## 🏆 HACKATHON DELIVERABLES
+## DELIVERABLES
 
 ### ✅ COMPLETED SYSTEMS
 - **Full-stack Web3 Application**: Complete frontend, backend, and smart contracts
@@ -472,27 +340,40 @@ The **VERY token** powers all economic transactions:
 - **Social Features**: Share achievements via VeryChat integration
 - **Analytics Dashboard**: Progress heatmaps and detailed insights
 
-```
-═══════════════════════════════════════════════════════════════════════════════
-                        [COALITION PROTOCOLS]
-═══════════════════════════════════════════════════════════════════════════════
-```
+## Architecture and Preview
 
-## 🤝 DEVELOPMENT ALLIANCE
+### System Architecture
+![Architecture](images/Architecture.png)
+*Technical architecture and system design*
 
-### Contributing to the Protocol
-1. **Fork Repository**: Create your development branch
-2. **Feature Development**: Implement enhancements or fixes
-3. **Testing Protocol**: Ensure all systems remain operational
-4. **Pull Request**: Submit for code review and integration
-5. **Deployment**: Automated CI/CD pipeline handles production updates
+### Screenshots
+
+<div align="center">
+
+| Dashboard | Habit Management | Profile | Community |
+|-----------|------------------|-------------|--------|
+| ![Dashboard](images/Home.jpg) | ![Habit Creation](images/record.jpg) | ![Achievement](images/userprofile.jpg) | ![Community](images/communities.jpg) |
+| *Main dashboard with habit tracking* | *Create Study/Fitness habits* | *Milestone celebrations* | *Social features and engagement* |
+
+</div>
+
+### Web
+
+<div align="center">
+
+| ||
+|------------|-------------|
+| ![Mobile App](images/Screenshot%202025-12-31%20011559.png) | ![User Profile](images/Screenshot%202025-12-31%20011434.png) |
+
+</div>
+
 
 ### OPERATIVE CHANNELS
 - **🌐 Live Demo**: [frontend-puce-eta-80.vercel.app](https://frontend-puce-eta-80.vercel.app)
-- **📚 Documentation**: [docs.constrix.app](https://docs.constrix.app)
-- **💬 VeryChat Community**: [Join habit accountability rooms](https://verychat.app)
-- **🐦 Protocol Updates**: [@ConstrixApp](https://twitter.com/ConstrixApp)
-- **⚡ Very Network**: [Official ecosystem](https://very.network)
+- **📚 Documentation**: [docs.constrix.app](https://sandeep-2.gitbook.io/sandeep-docs)
+- **💬 VeryChat Community**: [Join habit accountability rooms](https://play.google.com/store/apps/details?id=com.add.verychat_app&hl=en-US&pli=1)
+- **⚡ Very Network**: [Official ecosystem](https://wp.verylabs.io/verychain/introduce-verychain)
+- **🔗 Smart Contract**: [View on VeryScan](https://www.veryscan.io/address/0xeF036a43bc832781Ba44F95f898d9e44d1F7fe1d?tab=txs)
 
 ```
 ═══════════════════════════════════════════════════════════════════════════════
@@ -516,26 +397,6 @@ This project operates under the **MIT License** - see the [LICENSE](LICENSE) fil
 │  > Making Web3 accessible through daily routines               │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
-```
-
-**[⚡ DEPLOY NOW](#-quick-deployment-protocol)** • **[🎥 WATCH DEMO](#)** • **[🌐 ACCESS DASHBOARD](https://frontend-puce-eta-80.vercel.app/)**
-
----
-
-```
-> PROTOCOL STATUS ........................... [OPERATIONAL]
-> DEPLOYMENT VERSION ........................ [v1.0.0]
-> NETWORK INTEGRATION ....................... [VERY READY]
-```
-
-*Engineered with ⚡ for the global consistency community*
-
-[![POWERED BY VERY NETWORK](https://img.shields.io/badge/⚡_POWERED_BY-VERY_NETWORK-blueviolet?style=for-the-badge&logo=ethereum)](https://very.network)
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                    MAKING CONSISTENCY PORTABLE & ON-CHAIN                   ║
-╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
