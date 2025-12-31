@@ -78,8 +78,6 @@
 || |
 |------------|-------------|
 | ![Mobile App](images/Screenshot%202025-12-31%20011559.png) | ![User Profile](images/Screenshot%202025-12-31%20011434.png) |
-| *React Native mobile app* | *Analytics dashboard* |
-
 </div>
 
 
